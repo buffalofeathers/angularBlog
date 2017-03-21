@@ -1,0 +1,11 @@
+<div class="pages">
+<div>
+    <h2>{{ single.title }}</h2>
+    <h3>{{ single.authorfirstname }} {{ single.authorlastname }}</h3>
+    <h6>{{ single.categoryname }}</h6>
+    <h6>{{ single.content }}</h6>
+    <h6>{{ single.createdAt | date: "medium" }}</h6>
+    <a ng-href="/{{ single.id }}/update"><button>Edit</button></a>
+    <button ng-click="promptDelete()">Delete</button>
+</div>
+</div>

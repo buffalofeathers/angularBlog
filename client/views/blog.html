@@ -1,0 +1,11 @@
+<div class="pages">
+<h2 id="appTitle">Angular Blog</h2>
+<a ng-href="/compose"><button class="compBut">Compose</button></a>
+<div ng-repeat="blog in blogList">
+    <h2>{{ blog.title }}</h2>
+    <h3>{{ blog.authorfirstname }} {{ blog.authorlastname }}</h3>
+    <h6>{{ blog.categoryname }}</h6>
+    <h6>{{ blog.createdAt | date: "medium" }}</h6>
+    <a ng-href='/{{ blog.id }}' class="read">Read</a>
+</div>
+</div>

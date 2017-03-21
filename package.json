@@ -1,0 +1,24 @@
+{
+  "name": "fs-fall16-p2-buffalofeathers",
+  "version": "1.0.0",
+  "description": "## Info * You will be creating a blog site using Angular, Express, and MySQL * You will be writing an express server and API code, so you will need to install express, body-parser, and mysql into your package.json file * You will be using factories, $resource, and html5Mode",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DepotU/fs-fall16-p2-buffalofeathers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DepotU/fs-fall16-p2-buffalofeathers/issues"
+  },
+  "homepage": "https://github.com/DepotU/fs-fall16-p2-buffalofeathers#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mysql": "^2.11.1"
+  }
+}
